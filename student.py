@@ -12,7 +12,7 @@ def student_information():
     student_roomnumber = int(input("enter student room"))
         
     student_block = int(input("enter student block "))
-
+    student_complaint = int(input("enter complaint description "))
 
 
     student = {
@@ -20,6 +20,8 @@ def student_information():
         "REGISTRATION NUMBER" : student_regnumber,
         "STUDENT BLOCK NUMBER" :student_block,
         "STUDENT ROOM NUMBER"  : student_roomnumber,
+
+        "STUDENT COMPLAINT"     : student_complaint
         
     }
     return student
