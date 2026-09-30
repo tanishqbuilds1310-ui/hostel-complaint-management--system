@@ -25,7 +25,7 @@ A lightweight, CLI-based Python application that simplifies how hostel complaint
 ## Project Structure
 
 ```text
-Hostel-Complaint-Management-System/
+Hostel-Complaint-System/
 │
 ├── main.py          # Entry point; handles UI menus and application flow
 ├── student.py       # Handles student data structures and validation
